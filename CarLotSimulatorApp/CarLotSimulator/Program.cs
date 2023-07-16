@@ -7,7 +7,7 @@ namespace CarLotSimulator
     {
         static void Main(string[] args)
         {
-            //TODO
+            //Done
             //Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
             var lot = new CarLot();
