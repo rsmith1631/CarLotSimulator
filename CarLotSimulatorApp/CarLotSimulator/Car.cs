@@ -17,7 +17,7 @@ namespace CarLotSimulator
         // Set the properties utilizing the 3 different ways we learned about, one way for each car
         public Car()
         {
-
+            CarLot.numberOfCars++;
         }
         public Car(int year,string make, string model, string engineNoise, string honkNoise, bool isDriveable)
         {
